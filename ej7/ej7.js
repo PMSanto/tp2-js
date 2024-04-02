@@ -16,7 +16,7 @@ if (numero !== null && !isNaN(numero) && numero >= 1 && numero <= 50) {
       document.write(i);
     }
     document.write("<br />");
-  }  
+  }
 } else if (numero !== null) {
   alert("ingresa un número válido entre 1 y 50");
 }

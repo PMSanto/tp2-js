@@ -17,11 +17,11 @@ for (let i = 1; i <= 500; i++) {
   if (i % 4 === 0) {
     document.write("(Múltiplo de 4)");
   } else if (i % 9 === 0) {
-    document.write("(Múltiplo de 9)");  
-  } 
-  
+    document.write("(Múltiplo de 9)");
+  }
+
   if (i % 5 === 0)
-    document.write("<br />" +"--------------------------------------------");
-  
+    document.write("<br />" + "--------------------------------------------");
+
   document.write("<br />");
 }
